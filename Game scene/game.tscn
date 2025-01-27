@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dliabhmwe1tw7"]
+
+[ext_resource type="Script" path="res://Game scene/game.gd" id="1_uoema"]
+[ext_resource type="Texture2D" uid="uid://b5tei0eqjmfll" path="res://LET’S GET RICH.png" id="1_vxr52"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_uoema")
+
+[node name="Backdrop" type="Sprite2D" parent="."]
+position = Vector2(572, 323.25)
+scale = Vector2(0.420679, 0.420679)
+texture = ExtResource("1_vxr52")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 341.0
+offset_bottom = 54.0
